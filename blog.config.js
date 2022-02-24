@@ -1,7 +1,7 @@
 const BLOG = {
   title: 'YJK',
-  author: 'JK Youth',
-  email: 'im@yjk.im',
+  author: 'YJK',
+  email: 'yjk@duck.com',
   link: 'https://yjk.im.sb',
   description: '没有技术含量的 Po 博客',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
