@@ -26,7 +26,8 @@ const CusdisComponent = dynamic(
 const Comments = ({ frontMatter }) => {
   const router = useRouter()
   return (
-    <div><br>
+    <div>
+      <br>
       {BLOG.comment && BLOG.comment.provider === 'gitalk' && (
         <GitalkComponent
           options={{
