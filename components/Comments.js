@@ -28,6 +28,7 @@ const Comments = ({ frontMatter }) => {
   return (
     <div>
       <br>
+      </br>
       {BLOG.comment && BLOG.comment.provider === 'gitalk' && (
         <GitalkComponent
           options={{
