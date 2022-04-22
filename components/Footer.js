@@ -1,4 +1,5 @@
 import BLOG from '@/blog.config'
+import Vercel from '@/components/Vercel'
 const Footer = ({ fullWidth }) => {
   const d = new Date()
   const y = d.getFullYear()
@@ -15,6 +16,7 @@ const Footer = ({ fullWidth }) => {
           <p>
             © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
           </p>
+          <Vercel />
         </div>
       </div>
     </div>
