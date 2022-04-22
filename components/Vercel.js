@@ -1,8 +1,10 @@
 const Vercel = () => {
   return (
     <a
-      href="https://mastodon.im.sb/@a"
-      rel="me"
+      href="https://vercel.com?utm_source=Craigary&utm_campaign=oss"
+      target="_blank"
+      rel="noreferrer"
+      aria-label="Vercel"
     >
       <svg
         width="135"
