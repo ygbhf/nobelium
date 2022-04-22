@@ -2,9 +2,7 @@ const Vercel = () => {
   return (
     <a
       href="https://mastodon.im.sb/@a"
-      target="_blank"
       rel="me"
-      aria-label="Vercel"
     >
       <svg
         width="135"
