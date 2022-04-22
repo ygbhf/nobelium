@@ -15,7 +15,6 @@ const Footer = ({ fullWidth }) => {
           <p>
             © YJK {from === y || !from ? y : `${from} - ${y}`} | <a rel="me" href="https://mastodon.im.sb/@a">Mastodon</a>
           </p>
-          <Vercel />
         </div>
       </div>
     </div>
