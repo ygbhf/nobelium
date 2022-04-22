@@ -1,5 +1,4 @@
 import BLOG from '@/blog.config'
-import Vercel from '@/components/Vercel'
 const Footer = ({ fullWidth }) => {
   const d = new Date()
   const y = d.getFullYear()
@@ -14,7 +13,7 @@ const Footer = ({ fullWidth }) => {
       <div className="my-4 text-sm leading-6">
         <div className="flex align-baseline justify-between flex-wrap">
           <p>
-            © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
+            © YJK {from === y || !from ? y : `${from} - ${y}`} | <a rel="me" href="https://mastodon.im.sb/@a">Mastodon</a>
           </p>
           <Vercel />
         </div>
